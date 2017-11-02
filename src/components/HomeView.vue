@@ -3,7 +3,6 @@
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
-        hello
         <div v-for="picture in this.pictures" :key="picture.id" class="image-card" @click="displayDetails(picture.id)">
           <div class="image-card__picture">
             <img :src="picture.url" />
